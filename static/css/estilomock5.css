@@ -1,0 +1,39 @@
+body{
+    background:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+h1{
+    color: #377ba8;
+    text-align: center;
+    background-color: lightblue;
+}
+  
+form {
+  
+  width: 500px;
+  padding: 32px;
+  border-radius: 20px;
+  margin: auto;
+  background-color:aliceblue;
+}
+
+#menu{
+    padding: 50px ;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+/* ********************************************** */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio sesion</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/estilo.css">
+</head>
+<body >
+    <center>
+        <form action="{{ url_for('mockup1')}}"
+        method="POST"
+        name="formmockup1"
+        >
+        <h1>Iniciar sesion</h1>
+        <fieldset>
+        <p>Usuario: <input type="text" name="usuario" id="usuario"> </p>
+        <p>Contraseña: <input type="password" name="password" id="password"> </p>
+        </fieldset>
+        <br>
+
+        <input type="button" value="Iniciar sesion" name="login" OnClick="location.href='mockup2.html'">
+    
+        <br>
+
+        <center><A HREF="mockup2.html"> ¿Has olvidado la contraseña? </A></center>
+
+        </form>
+    </center>
+        
+
+    
+    
+    
+</body>
+</html>

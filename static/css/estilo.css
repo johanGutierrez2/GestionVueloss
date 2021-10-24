@@ -1,0 +1,33 @@
+body{
+  background:url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h1{
+  color: #377ba8;
+  text-align: center;
+  background-color: lightblue;
+}
+
+form {
+
+width: 350px;
+padding: 32px;
+border-radius: 20px;
+margin: auto;
+background-color:aliceblue;
+}
+
+button{
+  text-align: center;
+  font-weight: bold;
+  
+  display: block;
+  margin: 0 auto;  
+}
+
+form caption{
+  font-size:"35";
+}

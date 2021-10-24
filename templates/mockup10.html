@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Vuelos</title>
+    <link rel="stylesheet" href="../static/css/estilo.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><h3>Editar Vuelos</h3></legend>
+    
+            <p>Codigo de vuelo: <input type="text" name="codigo"></p>
+            <br>
+            <p>Destino: <select name="destino" id="destino">
+                <option value="Bogota">Bogota</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Barranquilla">Barranquilla</option>
+            </select> </p>
+    
+            <p>Piloto: <select name="pilotos" id="pilotos">
+                <option value="piloto1">Piloto1</option>
+                <option value="piloto2">Piloto2</option>
+                <option value="piloto3">Piloto3</option>
+                <option value="piloto4">Piloto4</option>
+            </select> </p>
+    
+            <p>Avion: <select name="aviones" id="aviones">
+                <option value="avion1">Avion1</option>
+                <option value="avion2">Avion2</option>
+                <option value="avion3">Avion3</option>
+                <option value="avion4">Avion4</option>
+            </select> </p>
+    
+            <p>Fecha y hora de salida: 
+                <input type="date" id="start" name="trip-start"
+                       value="2018-07-22"
+                       min="1920-01-01" max="2021-12-31">
+            </p>
+    
+            <button>Editar</button>
+        </fieldset>
+
+    </form>
+
+    
+</body>
+</html>
